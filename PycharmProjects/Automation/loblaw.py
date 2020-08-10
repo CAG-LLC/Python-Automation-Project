@@ -25,7 +25,7 @@ def locate():
 
 
         for loc in loc:
-            if 'sydney' in (loc.string).lower() or 'glace' in (loc.string).lower()  and 'today' in loc.string.lower() :
+            if 'sydney' in (loc.string).lower() or 'north' in (loc.string).lower()  and 'today' in loc.string.lower() :
                 send_email()
                 send_msg()
 

@@ -38,7 +38,7 @@ def locate_find():
 
     if "sydney".lower() in (location.replace(',','')).lower() and int(day[9:10]) == ti[2]:
         send_email()
-        send_msg()
+
 
 
 
@@ -65,18 +65,6 @@ def send_email():
     print('Hey Email has been sent!')
     server.quit()
 
-def send_msg():
-    account_sid = 'AC26b55fc8f5461f0ac69131ad2a00a18c'
-    auth_token = '8eb7607f669985079ecd0a330ba9744b'
-    client = Client(account_sid, auth_token)
-
-    message = client.messages.create(
-        body='Job at Staple ',
-        from_='+14156632892',
-        to='+19022170188'
-    )
-
-    print(message.sid)
 
 
 while(True):
