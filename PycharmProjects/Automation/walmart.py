@@ -35,7 +35,7 @@ def send_email():
     server.starttls() # Encrypt our connection
     server.ehlo()
 
-    server.login('gags231290@gmail.com','rfmcjdnbchottjmx')
+    server.login('dfdfdfdf@gmail.com','fgfgfgfgfdnbchottjmx')
 
     subject = 'New Job Posted - Walmart '
 
@@ -44,8 +44,8 @@ def send_email():
     msg = f"Subject: {subject}\n\n {body}"
 
     server.sendmail(
-        'gags231290@gmail.com',
-        'gags23deep@gmail.com',
+        'dfdfdsfdsfd@gmail.com',
+        'sdfdfsdfds@gmail.com',
         msg
     )
 
@@ -53,14 +53,14 @@ def send_email():
     server.quit()
 
 def send_msg():
-    account_sid = 'AC26b55fc8f5461f0ac69131ad2a00a18c'
-    auth_token = '8eb7607f669985079ecd0a330ba9744b'
+    account_sid = 'dfdfdf1f0ac69131ad2a00a18c'
+    auth_token = 'dfdfdsfdfdfda330ba9744b'
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
         body='Job at walmart ',
-        from_='+14156632892',
-        to='+19022170188'
+        from_='+14743632892',
+        to='+134343170188'
     )
 
     print(message.sid)
