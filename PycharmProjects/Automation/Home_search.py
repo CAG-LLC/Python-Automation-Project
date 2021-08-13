@@ -29,15 +29,15 @@ def find_home():
 
 
 def send_msg():
-    account_sid = 'ACa6ec4b8a63b29665c9a0cdd01cdf18af'
-    auth_token = 'ffdb25ba5f2089d81eecde4d0a5fdd91'
+    account_sid = 'thyhrtyrtey45654363456456456'
+    auth_token = 'yhtyrtyrtyrty565465'
     client = Client(account_sid, auth_token)
 
     message = client.messages \
         .create(
         body="New room posting, Please check.",
-        from_='+15136665963',
-        to='+19025930170'
+        from_='+15156546546',
+        to='+1456456456546'
     )
 
    # print(message.sid)
