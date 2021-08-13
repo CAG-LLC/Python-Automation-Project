@@ -65,8 +65,8 @@ def send_email():
     msg = f"Subject: {subject}\n\n {body}"
 
     server.sendmail(
-        'gags231290@gmail.com',
-        'gags23deep@gmail.com',
+        '',
+        '',
         msg
     )
 
@@ -76,14 +76,14 @@ def send_email():
 
 
 def send_msg():
-    account_sid = 'AC26b55fc8f5461f0ac69131ad2a00a18c'
-    auth_token = '8eb7607f669985079ecd0a330ba9744b'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
         body='Job at Coke Canada ',
         from_='+14156632892',
-        to='+19022170188'
+        to=''
     )
 
     print(message.sid)
