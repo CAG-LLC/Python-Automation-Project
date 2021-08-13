@@ -48,7 +48,7 @@ def send_email():
     server.starttls() # Encrypt our connection
     server.ehlo()
 
-    server.login('gags231290@gmail.com','rfmcjdnbchottjmx')
+    server.login('45345345@gmail.com','5454fgfdgfgbvfgfg')
 
     subject = 'New Job Posted at Staple!'
 
@@ -57,8 +57,8 @@ def send_email():
     msg = f"Subject: {subject}\n\n {body}"
 
     server.sendmail(
-        'gags231290@gmail.com ',
-        'gags23deep@gmail.com ',
+        'dfdfdsfasf@gmail.com ',
+        'cxvcxvcxvcxvsefsed@gmail.com ',
         msg
     )
 
