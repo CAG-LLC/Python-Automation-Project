@@ -56,7 +56,7 @@ def send_email():
     server.starttls() # Encrypt our connection
     server.ehlo()
 
-    server.login('gags231290@gmail.com','rfmcjdnbchottjmx')
+    server.login('','')
 
     subject = 'New Job Posted  at Coke Canada !'
 
