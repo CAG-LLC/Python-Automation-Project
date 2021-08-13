@@ -56,14 +56,14 @@ def send_email():
     server.quit()
 
 def send_msg():
-    account_sid = 'AC2dfdfdsf61f0ac69131ad2a00a18c'
-    auth_token = '8edfdfd669985079dfdfsdf44b'
+    account_sid = 'dfdsfe523456457'
+    auth_token = 'dfdsfsdfsdfsd'
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
         body='Job at loblaw Company ',
         from_='+14156632892',
-        to='+14323453434'
+        to='+1432h34564356'
     )
 
     print(message.sid)
